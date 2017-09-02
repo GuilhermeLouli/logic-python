@@ -1,8 +1,8 @@
-x = int(input("Lado A   "))
-y = int(input("Lado B   "))
-def rectangle(A,B):
-    perimeter = A * 2 + B * 2
-    area = A * B
-    print ("area" ,area)
-    print ("perimeter" ,perimeter)
-rectangle(x,y)
+sideA = int(input("Lado A   "))
+sideB = int(input("Lado B   "))
+def calcAreaAndPerimeter(sideA, sideB):
+    perimeter = sideA * 2 + sideB * 2
+    area = sideA * sideB
+    print ("area: ", area)
+    print ("perimeter: ", perimeter)
+calcAreaAndPerimeter(sideA, sideB)
