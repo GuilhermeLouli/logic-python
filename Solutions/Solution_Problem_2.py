@@ -1,5 +1,5 @@
-x = float(input("Dolar para reais    "))
-def conversion(dolar):
-    dolar = dolar * 2.4
-    print(dolar)
-conversion(x)
+dolar = float(input("Digite o valor em dolares:    "))
+def calcReais(dolar):
+    reais = dolar * 2.4
+    print("Reais:   ", reais)
+calcReais(dolar)
