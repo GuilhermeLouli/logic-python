@@ -1,8 +1,8 @@
-w = int(input("bimestre 1    "))
-x = int(input("bimestre 2    "))
-y = int(input("bimestre 3    "))
-z = int(input("bimestre 4    "))
-def bimestres(a,b,c,d):
+bimestre1 = int(input("bimestre 1    "))
+bimestre2 = int(input("bimestre 2    "))
+bimestre3 = int(input("bimestre 3    "))
+bimestre4 = int(input("bimestre 4    "))
+def calcAverage(a,b,c,d):
     average = (a + b + c + d) / 4
     print(average)
 bimestres(w,x,y,z)
